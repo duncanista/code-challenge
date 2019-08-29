@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Workshop &mdash; Colorlib Website Template</title>
+	<title>Code Challenge 2019</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -36,18 +36,18 @@
 		<div class="container-fluid">
 			<div class="row align-items-center">
 				<div class="col-11 col-xl-2">
-					<h1 class="mb-0"><a href="index.php" class="text-white h2 mb-0">Code<span class="text-primary">Challenge</span></a></h1>
+					<h1 class="mb-0"><a href="index.php" class="text-white h2 mb-0">code<span class="text-primary">CHALLENGE</span></a></h1>
 				</div>
 
 				<div class="col-12 col-md-10 d-none d-xl-block">
 					<nav class="site-navigation position-relative text-right" role="navigation">
 						<ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-							<li class="active"><a href="index.php">Home</a></li>
-							<li><a href="about.php">About Us</a></li>
-							<li><a href="speakers.php">Speakers</a></li>
+							<li class="active"><a href="index.php">Inicio</a></li>
+							<li><a href="about.php">Nosotros</a></li>
+							<li><a href="speakers.php">Talleres</a></li>
 							<li><a href="news.php">News</a></li>
-							<li><a href="contact.php">Contacts</a></li>
-							<li class="cta"><a href="buy-tickets.php">Buy Tickets</a></li>
+							<li><a href="contact.php">Contacto</a></li>
+							<li class="cta"><a href="buy-tickets.php">BOLETOS</a></li>
 						</ul>
 					</nav>
 				</div>
