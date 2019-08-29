@@ -1,0 +1,173 @@
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fonts/gotham/GothamBook.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/gotham/GothamBook.woff') format('woff'),
+		/* Pretty Modern Browsers */ url('../fonts/gotham/GothamBook.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+	font-family: 'GothamLight';
+	src: url('../fonts/gotham/GothamLight.woff2') format('woff2'),
+		/* Super Modern Browsers */ url('../fonts/gotham/GothamLight.woff') format('woff'),
+		/* Pretty Modern Browsers */ url('../fonts/gotham/GothamLight.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* Global Variables */
+
+:root {
+	--bg: #140e36;
+	--bg2: #3b0f70;
+	--bg3: #641a80;
+	--bg4: #8c2981;
+	--bg5: #b5367a;
+	--font: #f9f9f9;
+	--accent: #ff5733;
+	--accent2: #ad1f00;
+}
+
+body {
+	background-color: var(--background);
+	background-image: linear-gradient(180deg, var(--bg), var(--bg2), var(--bg3), var(--bg4), var(--bg5));
+	color: var(--font);
+	font-family: 'GothamBook', sans-serif;
+	font-size: 1.2vw;
+}
+
+a {
+	margin: auto;
+	text-decoration: none;
+	color: var(--font);
+	font-family: 'GothamLight', sans-serif;
+}
+
+h3 {
+	animation: Start 0.5s linear forwards;
+	font-weight: 100;
+	font-size: 3vw;
+	margin-left: 5vw;
+	margin-top: 0.2vw;
+	margin-bottom: 0.2vw;
+}
+
+h2 {
+	animation: Start 0.5s linear forwards;
+	font-weight: 100;
+	font-size: 5vw;
+	margin-left: 5vw;
+	margin-top: 0.2vw;
+	margin-bottom: 0.2vw;
+}
+
+h1 {
+	animation: Start 0.5s linear forwards;
+	color: var(--accent2);
+	font-weight: 100;
+	font-size: 10vw;
+	margin-left: 5vw;
+	margin-top: 0.2vw;
+	margin-bottom: 0.2vw;
+}
+
+a:hover {
+	animation: Fade 0.2s linear forwards;
+}
+
+/* Selection */
+
+::-moz-selection {
+	background: var(--bg);
+	color: var(--font);
+}
+
+::selection {
+	background: var(--bg);
+	color: var(--font);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #070707;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #151515;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #151515;
+}
+
+/* Classes */
+
+.navBar {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	padding: 1rem 0rem;
+	margin-bottom: 20vw;
+}
+
+.navBar_2 {
+	display: flex;
+	position: absolute;
+	right: 0;
+	width: 50%;
+	flex-direction: row;
+	padding: 1rem 0rem;
+}
+
+.Logo {
+	color: var(--font);
+	font-size: 3vw;
+	position: absolute;
+	left: 3vw;
+}
+
+.text-primary {
+	color: var(--accent);
+	margin: 0;
+}
+
+a.selected {
+	color: var(--accent);
+}
+
+.separation {
+	margin-bottom: 25vw;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1200px) {
+	.navBar_2 {
+		display: flex;
+		position: absolute;
+		right: 0;
+		width: 50%;
+		flex-direction: column;
+		padding: 1rem 0rem;
+		font-size: 2vw;
+	}
+}
+
+/* Animations */
+
+@keyframes Fade {
+	100% {
+		color: var(--accent);
+	}
+}
+
+@keyframes Start {
+	0% {
+		transform: translate(0, 3vw);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
