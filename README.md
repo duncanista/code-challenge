@@ -11,7 +11,7 @@ This years Code Challenge is going to take place at three campus of Tec de Monte
 
 ## Societies involved
 In campus order:
-* **AESC** (_Asociación Estudiantil de Sistemas Computacionales)
+* **AESC** (_Asociación Estudiantil de Sistemas Computacionales_)
 * **<code.it>**
 * **SATI** (_Sociedad de Alumnos de Tecnologías de Información_)
 
