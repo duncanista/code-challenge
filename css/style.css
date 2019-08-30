@@ -31,6 +31,10 @@ body {
 .no-bottom{
 	margin-bottom: 0px !important;
 }
+.margin-top-1{
+	margin-top: 15rem;
+	margin-bottom: 15rem;
+}
 
 ::-moz-selection {
 	background: #000;
@@ -55,6 +59,18 @@ body {
 .logo-challenge{
 	margin-bottom: 0;
 }
+.logo-year{
+	font-size: 3vh;
+	margin-left: 8rem;
+	position: absolute;
+	transform: translateY(-1vh);
+	display: none;
+}
+@media (min-width: 768px) {
+	.logo-year{
+		display: block;
+	}
+}
 .hero-logo{
 	margin-bottom: 0 !important;
 	margin-top: 4rem;
@@ -72,7 +88,6 @@ body {
 .hero-year{
 	font-size: 2rem;
 	line-height: 0.5;
-	
 	
 }
 
@@ -961,6 +976,7 @@ h5,
 @media (min-width: 992px) {
 	.site-hero h1 {
 		font-size: 6rem;
+		line-height: 1.5;
 	}
 }
 

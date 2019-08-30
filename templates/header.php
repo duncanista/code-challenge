@@ -43,6 +43,7 @@
 						<a href="index.php" class="text-white h2 mb-0">
 							<span class="logo-code">code</span>
 							<span class="text-primary logo-challenge">CHALLENGE</span>
+							<span class="logo-year">2019</span>
 						</a>
 					</h3>
 				</div>

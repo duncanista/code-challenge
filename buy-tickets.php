@@ -7,7 +7,7 @@ include "templates/header.php";
     <div class="site-section site-hero inner">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-10">
+          <div class="col-md-10 margin-top-1">
             <span class="d-block mb-3 caption">Buy Tickets</span>
             <h1 class="d-block mb-4">Tickets</h1>
           </div>

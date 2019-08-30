@@ -2,20 +2,20 @@
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-md-4">
-					<h2 class="footer-heading text-uppercase mb-4">About Event</h2>
+					<h2 class="footer-heading text-uppercase mb-4">Sobre el evento</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
 				</div>
 				<div class="col-md-3 ml-auto">
-					<h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
+					<h2 class="footer-heading text-uppercase mb-4">Ligas de acceso</h2>
 					<ul class="list-unstyled">
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Speakers</a></li>
-						<li><a href="#">Gallery</a></li>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Nostros</a></li>
+						<li><a href="#">Taller</a></li>
+						<li><a href="#">Regístrate</a></li>
+						<li><a href="#">Contáctanos</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4">
-					<h2 class="footer-heading text-uppercase mb-4">Connect with Us</h2>
+					<h2 class="footer-heading text-uppercase mb-4">Síguenos</h2>
 					<p>
 						<a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
 						<a href="#" class="p-2"><span class="icon-twitter"></span></a>
@@ -28,12 +28,15 @@
 
 				<div class="col-md-12 text-center">
 					<div class="border-top pt-5">
-						<p>
+						<p style="display: none;">
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							Copyright &copy; <script>
 								document.write(new Date().getFullYear());
 							</script> All rights reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+						<p>
+							Code Challenge &copy; <script> document.write(new Date().getFullYear()); </script> 
 						</p>
 					</div>
 				</div>
