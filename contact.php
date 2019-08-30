@@ -1,5 +1,5 @@
 <?php
-
+$contact = "class='active'";
 include "templates/header.php";
 
 ?>

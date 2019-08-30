@@ -1,5 +1,5 @@
 <?php
-
+$home = "class='active'";
 include "templates/header.php";
 
 ?>
@@ -10,10 +10,16 @@ include "templates/header.php";
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-10">
-				<span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">Conference 2019</span>
-				<h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="200">Web Design Conference 2019</h1>
-				<span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="300">September 6th-7th, Minnesota, United States</span>
-				<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Buy Tickets</span></a>
+				<span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">Programación Competitiva</span>
+				<span class="d-block mb-4  hero-logo" data-aos="fade-up" data-aos-delay="200">
+					<h2 class="hero-code">code</h2>
+					<h1 class="hero-challenge">CHALLENGE</h1>
+					<span class="hero-year">2019</span>
+				</span>
+				
+				
+				<span class="d-block mb-5 caption no-bottom" data-aos="fade-up" data-aos-delay="400"><span class="text-primary">Noviembre 14</span>, Estado de México, Ciudad de México y Santa Fe</span>
+				<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="500"><span>Registrarse</span></a>
 			</div>
 		</div>
 	</div>

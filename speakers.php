@@ -1,5 +1,5 @@
 <?php
-
+$workshop = "class='active'";
 include "templates/header.php";
 
 ?>

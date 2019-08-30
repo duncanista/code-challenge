@@ -1,5 +1,5 @@
 <?php
-
+$about = "class='active'";
 include "templates/header.php";
 
 ?>

@@ -1,5 +1,5 @@
 <?php
-
+$news = "class='active'";
 include "templates/header.php";
 
 ?>

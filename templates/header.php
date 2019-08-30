@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,18 +38,23 @@
 	<header class="site-navbar py-3" role="banner">
 		<div class="container-fluid">
 			<div class="row align-items-center">
-				<div class="col-11 col-xl-2">
-					<h1 class="mb-0"><a href="index.php" class="text-white h2 mb-0">code<span class="text-primary">CHALLENGE</span></a></h1>
+				<div class="col-11 col-xl-2 logo">
+					<h3 class="mb-0">
+						<a href="index.php" class="text-white h2 mb-0">
+							<span class="logo-code">code</span>
+							<span class="text-primary logo-challenge">CHALLENGE</span>
+						</a>
+					</h3>
 				</div>
 
 				<div class="col-12 col-md-10 d-none d-xl-block">
 					<nav class="site-navigation position-relative text-right" role="navigation">
 						<ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-							<li class="active"><a href="index.php">Inicio</a></li>
-							<li><a href="about.php">Nosotros</a></li>
-							<li><a href="speakers.php">Talleres</a></li>
-							<li><a href="news.php">News</a></li>
-							<li><a href="contact.php">Contacto</a></li>
+							<li <?= $home;?> ><a href="index.php">Inicio</a></li>
+							<li <?= $about;?> ><a href="about.php">Nosotros</a></li>
+							<li <?= $workshop;?> ><a href="speakers.php">Talleres</a></li>
+							<li <?= $news;?> ><a href="news.php">News</a></li>
+							<li <?= $contact;?> ><a href="contact.php">Contacto</a></li>
 							<li class="cta"><a href="buy-tickets.php">BOLETOS</a></li>
 						</ul>
 					</nav>
