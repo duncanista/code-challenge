@@ -35,7 +35,7 @@ include "templates/header.php";
 				</div>
 			</div>
 			<div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
+				<p>Enfocado en nuevos competidores, busca familiarizarlos con el entorno de elección y el juez en línea.</p>
 			</div>
 		</div>
 
@@ -62,18 +62,16 @@ include "templates/header.php";
 	</div>
 </div>
 
-
-
 	<div class="site-section">
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-lg-4" data-aos="fade-up">
 					<div class="site-section-heading">
-						<h2>Itinerario</h2>
+						<h2>Registro</h2>
 					</div>
 				</div>
 				<div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+					<p></p>
 				</div>
 			</div>
 
@@ -88,7 +86,36 @@ include "templates/header.php";
 					</div>
 				</div>
 
-				<div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="300">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="site-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-4" data-aos="fade-up">
+					<div class="site-section-heading">
+						<h2>Itinerario</h2>
+					</div>
+				</div>
+				<div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
+					<p></p>
+				</div>
+			</div>
+
+			<div class="row align-items-stretch program">
+				<div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="200">
+					<div class="row align-items-stretch">
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">17:00</span> <span>PM</span></div>
+						<div class="col-md-9">
+							<h2 class="text-white">Design your open source strategy</h2>
+							<span>Chris Mathews</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 border-bottom border-top py-5" data-aos="fade" data-aos-delay="300">
 					<div class="row align-items-stretch">
 						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">18:30</span> <span>PM</span></div>
 						<div class="col-md-9">

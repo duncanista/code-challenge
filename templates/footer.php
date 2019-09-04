@@ -3,7 +3,7 @@
 			<div class="row mb-5">
 				<div class="col-md-4">
 					<h2 class="footer-heading text-uppercase mb-4">Sobre el evento</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
+					<p>Code Challenge es un evento de programación competitiva anual, en el Tec de Monterrey; tiene como objetivo impulsar el desarrollo de problemas reales con programación.</p>
 				</div>
 				<div class="col-md-3 ml-auto">
 					<h2 class="footer-heading text-uppercase mb-4">Ligas de acceso</h2>
