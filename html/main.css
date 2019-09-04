@@ -218,6 +218,16 @@ a.selected {
 	transform: translate(-1vw, 1.5vw);
 }
 
+.colors {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+input {
+	width: 5vw;
+}
+
 /* Mobile */
 
 @media screen and (max-width: 1200px) {
