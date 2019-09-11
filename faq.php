@@ -20,72 +20,72 @@ include "templates/header.php";
         <div class="row mb-5">
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 blog-entry"  data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="d-block mb-4">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid"> 
+              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
               <div class="mr-2"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
+              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 blog-entry" data-aos="fade-up" data-aos-delay="300">
             <a href="#" class="d-block mb-4">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid"> 
+              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
               <div class="mr-2"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
+              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 blog-entry" data-aos="fade-up" data-aos-delay="400">
             <a href="#" class="d-block mb-4">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid"> 
+              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
               <div class="mr-2"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
+              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 blog-entry"  data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="d-block mb-4">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid"> 
+              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
               <div class="mr-2"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
+              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 blog-entry" data-aos="fade-up" data-aos-delay="300">
             <a href="#" class="d-block mb-4">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid"> 
+              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
               <div class="mr-2"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
+              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 blog-entry" data-aos="fade-up" data-aos-delay="400">
             <a href="#" class="d-block mb-4">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid"> 
+              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
               <div class="mr-2"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
+              <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
           </div>
@@ -109,8 +109,8 @@ include "templates/header.php";
       </div>
     </div>
 
-    
-      
+
+
 <?php
 
 include "templates/footer.php";

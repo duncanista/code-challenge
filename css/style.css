@@ -28,6 +28,12 @@ body {
 	background-image: linear-gradient(180deg, #0f0d18, #140e36, #3b0f70, #641a80);
 	font-family: "GothamBook", sans-serif;
 }
+.center{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
 .no-bottom{
 	margin-bottom: 0px !important;
 }
@@ -50,11 +56,11 @@ body {
 .logo{
 	margin-bottom: 0;
 	padding-left: 3vh;
-	user-select: none; 
-	-webkit-user-select: none; 
-	-khtml-user-select: none; 
+	user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
 	-moz-user-select: none;
-	-ms-user-select: none; 
+	-ms-user-select: none;
 	pointer-events: none;
   	cursor: default;
 }
@@ -95,7 +101,7 @@ body {
 .hero-year{
 	font-size: 2rem;
 	line-height: 0.5;
-	
+
 }
 
 
@@ -567,7 +573,7 @@ h5,
 }
 
 .site-navbar .site-navigation .site-menu>li>a {
-	
+
 	color: #fff;
 	text-decoration: none !important;
 	position: relative;

@@ -15,8 +15,8 @@ include "templates/header.php";
 					<h2 class="hero-code">code</h2>
 					<h1 class="hero-challenge">CHALLENGE</h1>
 				</span>
-				
-				
+
+
 				<span class="d-block mb-5 caption no-bottom" data-aos="fade-up" data-aos-delay="400"><span class="text-primary">Noviembre 14</span>, Estado de México, Ciudad de México y Santa Fe</span>
 				<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="500"><span>Registrarse</span></a>
 			</div>

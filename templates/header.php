@@ -1,5 +1,9 @@
 <?php
-
+	$home = "";
+	$about = "";
+	$workshop = "";
+	$news = "";
+	$contact = "";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +28,7 @@
 </head>
 
 <body>
-	
+
 	<div class="site-wrap">
 		<div class="site-mobile-menu">
 			<div class="site-mobile-menu-header">
@@ -53,8 +57,8 @@
 						<ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 							<li <?= $home;?> ><a href="index.php">Inicio</a></li>
 							<li <?= $about;?> ><a href="about.php">Nosotros</a></li>
-							<li <?= $workshop;?> ><a href="speakers.php">Talleres</a></li>
-							<li <?= $news;?> ><a href="news.php">News</a></li>
+							<li <?= $workshop;?> ><a href="speakers.php">Taller</a></li>
+							<li <?= $news;?> ><a href="faq.php">FAQ</a></li>
 							<li <?= $contact;?> ><a href="contact.php">Contacto</a></li>
 							<li class="cta"><a href="buy-tickets.php">BOLETOS</a></li>
 						</ul>
