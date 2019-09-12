@@ -67,7 +67,8 @@ body {
 .logo-code{
 	font-size: 25px;
 	margin-left: 21%;
-	margin-bottom: 0;
+    margin-bottom: 0;
+    transform: translateY(1vh);
 }
 .logo-challenge{
 	margin-bottom: 0;

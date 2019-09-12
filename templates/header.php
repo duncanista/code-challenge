@@ -60,7 +60,7 @@
 							<li <?= $workshop;?> ><a href="speakers.php">Taller</a></li>
 							<li <?= $news;?> ><a href="faq.php">FAQ</a></li>
 							<li <?= $contact;?> ><a href="contact.php">Contacto</a></li>
-							<li class="cta"><a href="buy-tickets.php">BOLETOS</a></li>
+							<li class="cta"><a href="buy-tickets.php">Boletos</a></li>
 						</ul>
 					</nav>
 				</div>
