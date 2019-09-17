@@ -47,7 +47,7 @@ include "templates/header.php";
                                 <h2 class="text-white">¿Dónde tendrá lugar CodeChallenge 2019?</h2>
                                 <span>
                                     El evento tiene sede en el Tecnológico de Monterrey, Campus Estado de México (CEM). <br>
-                                    Sin embargo, Tec Campus Ciudad de México (CCM) y Tec Campus Santa Fe (CSF) toestarán conectados en remoto.
+                                    Sin embargo, Tec Campus Ciudad de México (CCM) y Tec Campus Santa Fe (CSF) estarán conectados en remoto.
                                 </span>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ include "templates/header.php";
                             <div class="col-md-12">
                                 <h2 class="text-white">¿Tiene costo?</h2>
                                 <span>
-                                    Sí, pues se entregarán premios a los participantes. Consulta los precios <a href="buy-tickets.php">aquí</a>.
+                                    Sí, pues se entregarán premios a los participantes. Consulta los precios en la sección <a href="buy-tickets.php">Boletos</a>.
                                 </span>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ include "templates/header.php";
                                 <h2 class="text-white">¿Tengo que tener experiencia en programación competitiva?</h2>
                                 <span>
                                     Para nada, pero se recomienda que el participante haya cursado, o esté cursando, programación básica en cualquier lenguaje.* <br>
-                                    Habrán ramas para que sea un torneo justo.
+                                    *habrán ramas para que sea un torneo justo.
                                 </span>
                             </div>
                         </div>

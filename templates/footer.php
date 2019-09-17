@@ -8,7 +8,7 @@
 				<div class="col-md-3 ml-auto">
 					<h2 class="footer-heading text-uppercase mb-4">Ligas de acceso</h2>
 					<ul class="list-unstyled">
-						<li><a href="#">Nostros</a></li>
+						<li><a href="./about.php">Nosotros</a></li>
 						<li><a href="#">Taller</a></li>
 						<li><a href="#">Regístrate</a></li>
 						<li><a href="#">Contáctanos</a></li>

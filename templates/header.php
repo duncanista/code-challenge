@@ -1,9 +1,5 @@
 <?php
-	$home = "";
-	$about = "";
-	$workshop = "";
-	$news = "";
-	$contact = "";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -57,7 +53,7 @@
 						<ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 							<li <?= $home;?> ><a href="index.php">Inicio</a></li>
 							<li <?= $about;?> ><a href="about.php">Nosotros</a></li>
-							<li <?= $workshop;?> ><a href="speakers.php">Taller</a></li>
+							<li <?= $workshop;?> ><a href="workshop.php">Taller</a></li>
 							<li <?= $news;?> ><a href="faq.php">FAQ</a></li>
 							<li <?= $contact;?> ><a href="contact.php">Contacto</a></li>
 							<li class="cta"><a href="buy-tickets.php">Boletos</a></li>

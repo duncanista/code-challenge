@@ -21,12 +21,12 @@ include "templates/header.php";
 		<div class="row mb-5">
 			<div class="col-lg-4 ">
 				<div class="site-section-heading" data-aos="fade-up" data-aos-delay="100">
-					<h2>Welcome To Workshop</h2>
+					<h2>Code Challenge</h2>
 				</div>
 			</div>
 			<div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio! Aperiam!</p>
-				<p>voluptatem nulla repellendus enim perspiciatis reiciendis iusto assumenda neque quaerat quidem architecto.</p>
+				<p>El objetivo del evento es que los participantes puedan demostrar sus habilidades en programación competitiva.</p>
+				<p>Durante tres horas, los concursantes resolverán problemas usando programación. Entre más rápido se resuelva un problema, más puntaje se obtiene.</p>
 			</div>
 		</div>
 		<div class="row mb-5">
@@ -59,7 +59,7 @@ include "templates/header.php";
 		<div class="row mb-5 justify-content-center">
 			<div class="col-lg-4 mb-5">
 				<div class="site-section-heading" data-aos="fade-up">
-					<h2 class="text-center">Our Team</h2>
+					<h2 class="text-center">Nosotros</h2>
 				</div>
 			</div>
 		</div>
