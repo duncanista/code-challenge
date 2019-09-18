@@ -4,7 +4,7 @@ Code Challenge is a competitive programming contest at Tec de Monterrey, Metropo
 
 ## About
 
-This years Code Challenge is going to take place at three campus of Tec de Monterrey simultaneously
+This year Code Challenge is going to take place at three campus of Tec de Monterrey simultaneously
 - [x] **CEM**, State of Mexico Campus,
 - [x] **CCM**, Mexico City Campus,
 - [x] **CSF**, Santa Fe Campus.
