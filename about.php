@@ -29,26 +29,7 @@ include "templates/header.php";
 				<p>Durante tres horas, los concursantes resolverán problemas usando programación. Entre más rápido se resuelva un problema, más puntaje se obtiene.</p>
 			</div>
 		</div>
-		<div class="row mb-5">
-			<div class="col-12" data-aos="fade-up" data-aos-delay="300">
-				<img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4" data-aos="fade-up" data-aos-delay="400"><span class="text-primary">The Conference</span></div>
-			<div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et rem ea, voluptatem harum autem reprehenderit dolor, asperiores voluptate, odio expedita modi quam eum suscipit, ut illum consequuntur atque. Nisi.</p>
-				<p>Cupiditate nostrum aliquam rem et, blanditiis iusto ipsa ab aspernatur tenetur ad! Dicta perspiciatis, laborum at natus hic nulla laboriosam, suscipit iusto quas animi, numquam sunt. Vel nemo aliquam asperiores.</p>
-				<p class="mb-5">Aspernatur sequi eum debitis illum inventore. Labore libero, minus tenetur, mollitia eaque officiis molestiae necessitatibus fugit at architecto eum recusandae nam, saepe aspernatur unde alias tempora ipsum. Neque, delectus tenetur.</p>
-
-				<div class="d-flex coordinator align-items-center">
-					<div class="mr-4">
-						<img src="images/person_2.jpg" alt="Image" class="img-fluid">
-					</div>
-					<span>By <span class="text-white">Luke Jones</span> <br> Conference Coordinator</span>
-				</div>
-			</div>
-		</div>
+		
 	</div>
 </div>
 
@@ -73,8 +54,11 @@ include "templates/header.php";
 					</figure>
 					<blockquote>
 						<p class="author mb-0">Emely Peters</p>
-						<p class="text-muted mb-4">Coordinator</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&</p>
+						<p class="text-muted mb-4">Presidenta</p>
+						<p>
+                            (<span class="p-color">SATI</span>)
+                            Sociedad de Alumnos de Tecnologías de Información, <br>
+                            Tecnológico de Monterrey, Campus Santa Fe.</p>
 
 					</blockquote>
 				</div>
@@ -87,7 +71,7 @@ include "templates/header.php";
 					</figure>
 					<blockquote>
 						<p class="author mb-0">Alex Anchors</p>
-						<p class="text-muted mb-4">Coordinator</p>
+						<p class="text-muted mb-4">Presidente</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&</p>
 
 					</blockquote>
