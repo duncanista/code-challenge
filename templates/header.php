@@ -51,11 +51,11 @@
 				<div class="col-12 col-md-10 d-none d-xl-block">
 					<nav class="site-navigation position-relative text-right" role="navigation">
 						<ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-							<li <?= $home;?> ><a href="index.php">Inicio</a></li>
-							<li <?= $about;?> ><a href="about.php">Nosotros</a></li>
-							<li <?= $workshop;?> ><a href="workshop.php">Taller</a></li>
-							<li <?= $news;?> ><a href="faq.php">FAQ</a></li>
-							<li <?= $contact;?> ><a href="contact.php">Contacto</a></li>
+							<li><a href="index.php">Inicio</a></li>
+							<li> ><a href="about.php">Nosotros</a></li>
+							<li> ><a href="workshop.php">Taller</a></li>
+							<li><a href="faq.php">FAQ</a></li>
+							<li> ><a href="contact.php">Contacto</a></li>
 							<li class="cta"><a href="buy-tickets.php">Boletos</a></li>
 						</ul>
 					</nav>

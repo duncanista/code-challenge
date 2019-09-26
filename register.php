@@ -14,8 +14,10 @@ include "templates/header.php";
         array_push($paramsStudent,formatString(md5($_POST["password"])));
         array_push($paramsStudent, formatString($_POST["level"]));
         array_push($paramsStudent, formatString($_POST["major"]));
+        array_push($paramsStudent, formatString($_POST["campus"]));
 
-        $fields =  array("name","lastName","email","password","level","major" );
+
+        $fields =  array("name","lastName","email","password","level","major", "campus" );
 
 
         if(insert($fields, $paramsStudent, "student")){
@@ -72,7 +74,7 @@ include "templates/header.php";
 
               <div class="row form-group">
 
-     						<div class="col-md-6">
+     						<div class="col-md-4">
      							<label class="" for="email">Nivel</label>
                   <select class="form-control" name="level" required>
                     <option value="principiante">Principiante</option>
@@ -81,7 +83,7 @@ include "templates/header.php";
 
                   </select>
      						</div>
-                <div class="col-md-6">
+                <div class="col-md-4">
      							<label class="" for="email">Carrera</label>
                   <select class="form-control" name="major" required>
                     <option value="isc">ISC</option>
@@ -89,6 +91,14 @@ include "templates/header.php";
                     <option value="iti">ITI</option>
                     <option value="isdr">ISDR</option>
                     <option value="isc">ISC</option>
+                  </select>
+     						</div>
+                <div class="col-md-4">
+     							<label class="" for="email">Campus</label>
+                  <select class="form-control" name="campus" required>
+                    <option value="cem">CEM</option>
+                    <option value="ccm">CCM</option>
+                    <option value="csf">CSF</option>
                   </select>
      						</div>
      					</div>
