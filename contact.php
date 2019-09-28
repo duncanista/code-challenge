@@ -23,7 +23,7 @@ include "templates/header.php";
 					<div class="row form-group">
 						<div class="col-md-6 mb-3 mb-md-0">
 							<label class="" for="fname">Nombre</label>
-							<input type="text" id="fname" class="form-control">
+                            <input type="text" id="fname" class="form-control" style="color: white !important;">
 						</div>
 						<div class="col-md-6">
 							<label class="" for="lname">Apellido</label>

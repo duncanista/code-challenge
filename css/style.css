@@ -10,9 +10,9 @@
 
 @font-face {
 	font-family: 'GothamLight';
-	src: url('../fonts/gotham/GothamLight.woff2') format('woff2'),
+	src: url('../fonts/gotham/Gotham-Light.woff2') format('woff2'),
 		/* Super Modern Browsers */
-		url('../fonts/gotham/GothamLight.woff') format('woff'),
+		url('../fonts/gotham/Gotham-Light.woff') format('woff'),
 		/* Pretty Modern Browsers */
 		url('../fonts/gotham/GothamLight.ttf') format('truetype');
 	/* Safari, Android, iOS */
@@ -129,7 +129,11 @@ h5,
 .h3,
 .h4,
 .h5 {
-	font-family: "GothamLight", sans-serif;
+    font-family: "GothamLight", sans-serif;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .border-2 {
@@ -204,8 +208,15 @@ h5,
 }
 
 .form-control {
-	height: 43px;
-	border-radius: 0;
+    border-radius: 0;
+    padding: 0.70rem 0.75rem 0rem 0.75rem;
+    vertical-align: middle;
+    line-height: 2rem;
+}
+select.form-control{
+    height: 3rem;
+    border-radius: 0 !important;
+    font-family: 'GothamLight';
 }
 
 .form-control:active,
@@ -1092,6 +1103,9 @@ h5,
 	color: #fff !important;
 	background: none;
 	border: 2px solid #fff;
+}
+.form-group label{
+    margin-bottom: 0px;
 }
 
 .form-group .form-control:active,
