@@ -105,7 +105,7 @@ include "templates/header.php";
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <input type="submit" value="Inscribir" class="btn btn-primary py-2 px-4 text-white">
+                            <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="100"><span>INSCRIBIRSE</span></a>
                         </div>
                     </div>
 

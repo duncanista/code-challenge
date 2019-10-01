@@ -56,7 +56,7 @@ include "templates/header.php";
 
 					<div class="row form-group">
 						<div class="col-md-12">
-							<input type="submit" value="Enviar Mensaje" class="btn btn-primary py-2 px-4 text-white">
+                            <a href="#" class="btn-custom" data-aos="fade-up"><span>ENVIAR MENSAJE</span></a>
 						</div>
 					</div>
 

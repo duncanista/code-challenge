@@ -209,7 +209,7 @@ h5,
 
 .form-control {
     border-radius: 0;
-    padding: 0.70rem 0.75rem 0rem 0.75rem;
+    padding: 0.70rem 0.75rem 0rem 0.5rem;
     vertical-align: middle;
     line-height: 2rem;
 }

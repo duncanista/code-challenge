@@ -37,17 +37,15 @@
 	<header class="site-navbar py-3" role="banner">
 		<div class="container-fluid">
 			<div class="row align-items-center">
-				<div class="col-11 col-xl-2 logo">
+				<div class="col-6 col-md-4 col-xl-2 logo">
 					<h3 class="mb-0">
 						<a href="index.php" class="text-white h2 mb-0">
-							<span class="logo-code">code</span>
-							<span class="text-primary logo-challenge">CHALLENGE</span>
-							<span class="logo-year">2019</span>
+							<img src="images/logo/cc_logo.png" alt="" class="img-fluid">
 						</a>
 					</h3>
 				</div>
-
-				<div class="col-12 col-md-10 d-none d-xl-block">
+                <div class="d-inline-block d-xl-none col-md-7 col-5"></div>
+				<div class="col-2 col-md-10 d-none d-xl-block">
 					<nav class="site-navigation position-relative text-right" role="navigation">
 						<ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 							<li <?= $home;?>><a href="index.php">Inicio</a></li>
