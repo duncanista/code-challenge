@@ -34,6 +34,10 @@ body {
 	align-items: center;
 	margin: 0 auto;
 }
+.line-through{
+    text-decoration: line-through overline underline;
+}
+
 .no-bottom{
 	margin-bottom: 0px !important;
 }

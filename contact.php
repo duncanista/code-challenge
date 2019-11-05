@@ -68,113 +68,12 @@ include "templates/header.php";
 					<p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Tec de Monterrey, CEM</p>
 					<p class="mb-4">Av Lago de Guadalupe KM 3.5, Margarita Maza de Juárez, 52926 Cd López Mateos, Méx.</p>
 
-					<p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Tec de Monterrey, CCM</p>
-					<p class="mb-4">Calle Puente 222, Coapa, Arboledas del Sur, 14380 Ciudad de México, CDMX</p>
-
-					<p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Tec de Monterrey, CSF</p>
-					<p class="mb-4">Av Carlos Lazo 100, Santa Fe, La Loma, 01389 Ciudad de México, CDMX</p>
-
 					<p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Correo de CC19</p>
-					<p class="mb-0"><a href="#">info@codechallenge.mx</a></p>
+					<p class="mb-0"><a href="#">info@codechallenge.com.mx</a></p>
 
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-
-
-<div class="site-section" data-aos="fade">
-	<div class="container">
-		<div class="row mb-5 justify-content-center">
-			<div class="col-lg-4 mb-5">
-				<div class="site-section-heading">
-					<h2 class="text-center">Testimonials</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="slide-one-item home-slider owl-carousel">
-
-			<div class="row justify-content-center">
-
-				<div class="testimony text-center col-md-5">
-					<figure>
-						<img src="images/person_1.jpg" alt="Image" class="img-fluid">
-					</figure>
-					<blockquote>
-						<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-						<p class="author">&mdash; Emely Peters</p>
-					</blockquote>
-				</div>
-			</div>
-
-			<div class="row justify-content-center">
-				<div class="testimony text-center col-md-5">
-					<figure>
-						<img src="images/person_2.jpg" alt="Image" class="img-fluid">
-					</figure>
-					<blockquote>
-						<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-						<p class="author">&mdash; Alex Anchors</p>
-					</blockquote>
-				</div>
-			</div>
-
-			<div class="row justify-content-center">
-				<div class="testimony text-center col-md-5">
-					<figure>
-						<img src="images/person_3.jpg" alt="Image" class="img-fluid">
-					</figure>
-					<blockquote>
-						<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-						<p class="author">&mdash; Aaron Thomas</p>
-					</blockquote>
-				</div>
-			</div>
-
-			<div class="row justify-content-center">
-				<div class="testimony text-center col-md-5">
-					<figure>
-						<img src="images/person_1.jpg" alt="Image" class="img-fluid">
-					</figure>
-					<blockquote>
-						<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-						<p class="author">&mdash; Emely Peters</p>
-					</blockquote>
-				</div>
-			</div>
-
-			<div class="row justify-content-center">
-				<div class="testimony text-center col-md-5">
-					<figure>
-						<img src="images/person_2.jpg" alt="Image" class="img-fluid">
-					</figure>
-					<blockquote>
-						<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-						<p class="author">&mdash; Alex Anchors</p>
-					</blockquote>
-				</div>
-			</div>
-
-			<div class="row justify-content-center">
-				<div class="testimony text-center col-md-5">
-					<figure>
-						<img src="images/person_3.jpg" alt="Image" class="img-fluid">
-					</figure>
-					<blockquote>
-						<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-						<p class="author">&mdash; Aaron Thomas</p>
-					</blockquote>
-				</div>
-			</div>
-
-		</div>
-
-
-
-
-
 	</div>
 </div>
 

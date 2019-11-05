@@ -20,38 +20,34 @@ include "templates/header.php";
         <div class="row center">
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="200">
             <div class="pricing border-secondary text-center">
-              <h2>Basic Pass</h2>
-              <div class="amount"><sup>$</sup><span class="number">190</span> </div>
+              <h2>Individual</h2>
+              <div class="amount"><sup>$</sup><span class="number">50</span> </div>
               <ul class="list-unstyled mb-5">
-                <li>1-Day Entrance</li>
-                <li>Essential Access</li>
-                <li>1 Guest Ticket</li>
-                <li>1 Workshop</li>
-                <li>Free Snacks</li>
+                <li>Entrada</li>
+                <li>Box Lunch</li>
+                <li>Entrada a Taller</li>
               </ul>
-              <div><a href="#" class="btn btn-secondary px-4 py-2">Buy Ticket</a></div>
+              <div><a href="#" class="btn btn-secondary px-4 py-2">REGISTRARSE</a></div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="pricing border-primary text-center">
-              <h2>Standard Pass</h2>
-              <div class="amount"><sup>$</sup><span class="number">289</span> </div>
+              <h2>Equipo</h2>
+              <div class="amount"><sup>$</sup><span class="number">150</span> </div>
               <ul class="list-unstyled mb-5">
-                <li>1-Day Entrance</li>
-                <li>Essential Access</li>
-                <li>1 Guest Ticket</li>
-                <li>1 Workshop</li>
-                <li>Free Snacks</li>
+                <li>3 entradas</li>
+                <li>3 Box Lunch</li>
+                <li>3 entradas a Taller</li>
               </ul>
-              <div><a href="#" class="btn btn-primary px-4 py-2">Buy Ticket</a></div>
+              <div><a href="#" class="btn btn-primary px-4 py-2">REGISTRARSE</a></div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-
+    <!--
     <div class="site-section" data-aos="fade">
       <div class="container">
         <div class="row mb-5 justify-content-center">
@@ -138,7 +134,7 @@ include "templates/header.php";
           </div>
 
         </div>
-
+        -->
 
 
 
