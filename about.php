@@ -50,15 +50,16 @@ include "templates/header.php";
 			<div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="100">
 				<div class="testimony text-center">
 					<figure>
-						<img src="images/person_1.jpg" alt="Image" class="img-fluid">
+						<img src="images/aesc_1.png" alt="Image" class="img-fluid">
 					</figure>
 					<blockquote>
-						<p class="author mb-0">Emely Peters</p>
-						<p class="text-muted mb-4">Presidenta</p>
+						<p class="author mb-0">Luis Alfonso Alcántara López Ortega</p>
+						<p class="text-muted mb-4">Vicepresidente</p>
 						<p>
-                            (<span class="p-color">SATI</span>)
-                            Sociedad de Alumnos de Tecnologías de Información, <br>
-                            Tecnológico de Monterrey, Campus Santa Fe.</p>
+                            (<span class="p-color">AESC</span>) <br>
+                            Tecnológico de Monterrey, <br>
+                            Campus Estado de México.
+                        </p>
 
 					</blockquote>
 				</div>
@@ -67,12 +68,16 @@ include "templates/header.php";
 			<div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="200">
 				<div class="testimony text-center">
 					<figure>
-						<img src="images/person_2.jpg" alt="Image" class="img-fluid">
+						<img src="images/aesc_0.png" alt="Image" class="img-fluid">
 					</figure>
 					<blockquote>
-						<p class="author mb-0">Alex Anchors</p>
+						<p class="author mb-0">Jordan González Bustamante</p>
 						<p class="text-muted mb-4">Presidente</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&</p>
+						<p>
+                            (<span class="p-color">AESC</span>) <br>
+                            Tecnológico de Monterrey, <br>
+                            Campus Estado de México.
+                        </p>
 
 					</blockquote>
 				</div>
@@ -81,12 +86,17 @@ include "templates/header.php";
 			<div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="300">
 				<div class="testimony text-center">
 					<figure>
-						<img src="images/person_3.jpg" alt="Image" class="img-fluid">
+						<img src="images/aesc_2.png" alt="Image" class="img-fluid">
 					</figure>
 					<blockquote>
-						<p class="author mb-0">Aaron Thomas</p>
-						<p class="text-muted mb-4">Coordinator</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&</p>
+						<p class="author mb-0">Joaquín Ríos Corvera</p>
+						<p class="text-muted mb-4">Finanzas</p>
+						<p>
+                            (<span class="p-color">AESC</span>) <br>
+                            Tecnológico de Monterrey, <br>
+                            Campus Estado de México.
+                        </p>
+
 
 					</blockquote>
 				</div>
@@ -98,9 +108,13 @@ include "templates/header.php";
 						<img src="images/person_1.jpg" alt="Image" class="img-fluid">
 					</figure>
 					<blockquote>
-						<p class="author mb-0">Emely Peters</p>
-						<p class="text-muted mb-4">Coordinator</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&</p>
+						<p class="author mb-0">Roberto Téllez Perezyera</p>
+						<p class="text-muted mb-4">Logísticas</p>
+						<p>
+                            (<span class="p-color">AESC</span>) <br>
+                            Tecnológico de Monterrey, <br>
+                            Campus Estado de México.
+                        </p>
 
 					</blockquote>
 				</div>
@@ -109,12 +123,16 @@ include "templates/header.php";
 			<div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="500">
 				<div class="testimony text-center">
 					<figure>
-						<img src="images/person_2.jpg" alt="Image" class="img-fluid">
+						<img src="images/aesc_5.png" alt="Image" class="img-fluid">
 					</figure>
 					<blockquote>
-						<p class="author mb-0">Alex Anchors</p>
-						<p class="text-muted mb-4">Coordinator</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&</p>
+						<p class="author mb-0">Natalia Meráz Tostado</p>
+						<p class="text-muted mb-4">Logísticas</p>
+						<p>
+                            (<span class="p-color">AESC</span>) <br>
+                            Tecnológico de Monterrey, <br>
+                            Campus Estado de México.
+                        </p>
 
 					</blockquote>
 				</div>
@@ -123,13 +141,17 @@ include "templates/header.php";
 			<div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="600">
 				<div class="testimony text-center">
 					<figure>
-						<img src="images/person_3.jpg" alt="Image" class="img-fluid">
+						<img src="images/aesc_3.png" alt="Image" class="img-fluid">
 					</figure>
 					<blockquote>
-						<p class="author mb-0">Aaron Thomas</p>
-						<p class="text-muted mb-4">Coordinator</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&</p>
-
+						<p class="author mb-0">Irving Fuentes Aguilera</p>
+						<p class="text-muted mb-4">Publicidad e Imagen</p>
+						<p>
+                            (<span class="p-color">AESC</span>) <br>
+                            Tecnológico de Monterrey, <br>
+                            Campus Estado de México.
+                        </p>
+                        
 					</blockquote>
 				</div>
 			</div>
@@ -147,34 +169,17 @@ include "templates/header.php";
 		<div class="row mb-5">
 			<div class="col-lg-4 ">
 				<div class="site-section-heading" data-aos="fade-up">
-					<h2>Sponsors</h2>
+					<h2>Patrocinadores</h2>
 				</div>
 			</div>
 			<div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+				<p>Cada patrocinador es fundamental para la realización del evento, apreciamos su colaboración para seguir impulsando el desarrollo en el área de Tecnología.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
-				<img src="images/logo_1.png" alt="Image" class="img-fluid">
+			<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 center" data-aos="fade" data-aos-delay="200">
+				<img src="images/logo/tec_white.png" alt="Image" class="img-fluid">
 			</div>
-			<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
-				<img src="images/logo_2.png" alt="Image" class="img-fluid">
-			</div>
-			<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="400">
-				<img src="images/logo_3.png" alt="Image" class="img-fluid">
-			</div>
-
-			<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="500">
-				<img src="images/logo_4.png" alt="Image" class="img-fluid">
-			</div>
-			<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="600">
-				<img src="images/logo_5.png" alt="Image" class="img-fluid">
-			</div>
-			<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="700">
-				<img src="images/logo_6.png" alt="Image" class="img-fluid">
-			</div>
-
 		</div>
 	</div>
 </div>

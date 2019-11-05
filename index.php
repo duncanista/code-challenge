@@ -11,13 +11,14 @@ include "templates/header.php";
 		<div class="row align-items-center">
 			<div class="col-md-10">
 				<span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">Programación Competitiva</span>
-				<span class="d-block mb-4  hero-logo" data-aos="fade-up" data-aos-delay="200">
-					<h2 class="hero-code">code</h2>
-					<h1 class="hero-challenge">CHALLENGE</h1>
-				</span>
+				
+                <a href="index.php" class="text-white h2 mb-0 center" data-aos="fade-up" data-aos-delay="600">
+                    <img src="images/logo/cc_logo.png" alt="" class="img-fluid">
+                </a>
 
 
-				<span class="d-block mb-5 caption no-bottom" data-aos="fade-up" data-aos-delay="400"><span class="text-primary">Noviembre 14</span>, Estado de México, Ciudad de México y Santa Fe</span>
+				<span class="d-block mb-5 caption no-bottom" data-aos="fade-up" data-aos-delay="400"><span class="text-primary">Noviembre 14</span>, Atizapán de Zaragoza<span class="text-primary">.</span></span>
+                <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="400">Tecnológico de Monterrey, <span class="text-primary">Campus Estado de México</span>.</span>
 				<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="500"><span>Registrarse</span></a>
 			</div>
 		</div>
@@ -67,7 +68,7 @@ include "templates/header.php";
 			<div class="row mb-5">
 				<div class="col-lg-4" data-aos="fade-up">
 					<div class="site-section-heading">
-						<h2>Registro</h2>
+						<h2>Registro presencial</h2>
 					</div>
 				</div>
 				<div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
@@ -76,12 +77,35 @@ include "templates/header.php";
 			</div>
 
 			<div class="row align-items-stretch program">
+                <div class="caption schedule-caption" data-aos="fade" data-aos-delay="200">
+                    6, 7 y 8 de noviembre.
+                </div>
 				<div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="200">
 					<div class="row align-items-stretch">
-						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">17:00</span> <span>PM</span></div>
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">10:00</span> <span>AM</span></div>
 						<div class="col-md-9">
-							<h2 class="text-white">Design your open source strategy</h2>
-							<span>Chris Mathews</span>
+							<h2 class="text-white">Apertura de stand</h2>
+							<span>Pasillo de Profesional</span>
+						</div>
+					</div>
+				</div>
+
+                <div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="300">
+					<div class="row align-items-stretch">
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">11:00</span> <span>AM</span></div>
+						<div class="col-md-9">
+							<h2 class="text-white">Venta de boletos</h2>
+							<span></span>
+						</div>
+					</div>
+				</div>
+
+                <div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="400">
+					<div class="row align-items-stretch">
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">16:00</span> <span>PM</span></div>
+						<div class="col-md-9">
+							<h2 class="text-white">Cierre de stand</h2>
+							<span>Pasillo de Profesional</span>
 						</div>
 					</div>
 				</div>
@@ -105,60 +129,82 @@ include "templates/header.php";
 			</div>
 
 			<div class="row align-items-stretch program">
+                <div class="caption schedule-caption" data-aos="fade" data-aos-delay="200">
+                    14 de noviembre.
+                </div>
 				<div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="200">
 					<div class="row align-items-stretch">
-						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">17:00</span> <span>PM</span></div>
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">16:00</span> <span>PM</span></div>
 						<div class="col-md-9">
-							<h2 class="text-white">Design your open source strategy</h2>
-							<span>Chris Mathews</span>
+							<h2 class="text-white">Preparación del evento</h2>
+							<span>Aula Magna 4-207</span>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-12 border-bottom border-top py-5" data-aos="fade" data-aos-delay="300">
 					<div class="row align-items-stretch">
-						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">18:30</span> <span>PM</span></div>
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">17:00</span> <span>PM</span></div>
 						<div class="col-md-9">
-							<h2 class="text-white">Lunch Box</h2>
-							<span>Chris Mathews</span>
+							<h2 class="text-white">Entrada de participantes y equipos</h2>
+							<span></span>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="400">
 					<div class="row align-items-stretch">
-						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">20:00</span> <span>PM</span></div>
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">17:10</span> <span>PM</span></div>
 						<div class="col-md-9">
-							<h2 class="text-white">Design your open source strategy</h2>
-							<span>Chris Mathews</span>
+							<h2 class="text-white">Apertura del evento</h2>
+							<span></span>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="500">
 					<div class="row align-items-stretch">
-						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">10:45</span> <span>NOON</span></div>
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">-</span> <span></span></div>
 						<div class="col-md-9">
-							<h2 class="text-white">Break With Snacks</h2>
+							<h2 class="text-white">Evento</h2>
+						</div>
+					</div>
+				</div>
+
+                <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="500">
+					<div class="row align-items-stretch">
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">17:30</span> <span></span></div>
+						<div class="col-md-9">
+							<h2 class="text-white">Entega de Box Lunch</h2>
+						</div>
+					</div>
+				</div>
+
+                <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="500">
+					<div class="row align-items-stretch">
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">-</span> <span></span></div>
+						<div class="col-md-9">
+							<h2 class="text-white">Evento</h2>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="600">
 					<div class="row align-items-stretch">
-						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">11:30</span> <span>AM</span></div>
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">19:50</span> <span>PM</span></div>
 						<div class="col-md-9">
-							<h2 class="text-white">Design your open source strategy</h2>
-							<span>Chris Mathews</span>
+							<h2 class="text-white">Mención de ganadores</h2>
+							<span></span>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="700">
 					<div class="row align-items-stretch">
-						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">12:00</span> <span>NOON</span></div>
+						<div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">20:00</span> <span>PM</span></div>
 						<div class="col-md-9">
-							<h2 class="text-white">Break For Lunch</h2>
+							<h2 class="text-white">Cierre del evento</h2>
+                            <span>Aula Magna 4-207</span>
 						</div>
 					</div>
 				</div>
@@ -177,19 +223,19 @@ include "templates/header.php";
 					</div>
 				</div>
 				<div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+					<p>Nuestros patrocinadores aportan para que este evento sea posible.</p>
 				</div>
 			</div>
 			<div class="row mb-5">
-				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
-					<img src="images/logo_1.png" alt="Image" class="img-fluid">
+				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 center" data-aos="fade" data-aos-delay="200">
+					<img src="images/logo/tec_white.png" alt="Image" class="img-fluid">
 				</div>
 
 			</div>
 
 			<div class="row" data-aos="fade-up" data-aos-delay="500">
 				<div class="col-12 text-center pt-5">
-					<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="800"><span>Se un patrocinador</span></a>
+					<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="800"><span>Conviértete en Patrocinador</span></a>
 				</div>
 			</div>
 		</div>
@@ -204,25 +250,25 @@ include "templates/header.php";
 					</div>
 				</div>
 				<div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+					<p>Nuestro equipo está comprometido por realizar eventos para la comunidad estudiantil en área de Tecnología y fomentar el desarrollo colectivo.</p>
 				</div>
 			</div>
 			<div class="row mb-5">
-				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
-					<img src="images/logo_1.png" alt="Image" class="img-fluid">
+				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 center" data-aos="fade" data-aos-delay="200">
+					<img src="images/logo/aesc_white.png" alt="Image" class="img-fluid">
 				</div>
 
 			</div>
 
 		</div>
 	</div>
-
+    <!-- TO ADD
 	<div class="site-section">
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-lg-4">
 					<div class="site-section-heading" data-aos="fade-up">
-						<h2>Noticias</h2>
+						<h2>Eventos pasados</h2>
 					</div>
 				</div>
 				<div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
@@ -275,6 +321,7 @@ include "templates/header.php";
 			</div>
 		</div>
 	</div>
+    -->
 
 <?php
 
