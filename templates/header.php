@@ -1,4 +1,11 @@
 <?php
+
+$home = "";
+$about = "";
+$workshop = "";
+$faq = "";
+$contact = "";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -16,14 +16,20 @@ include "templates/header.php";
         array_push($paramsStudent, formatString($_POST["major"]));
         array_push($paramsStudent, formatString($_POST["campus"]));
 
+        $token = md5( $_POST["email"] . date("Y-m-d", strtotime('+5 days')));
+        array_push($paramsStudent, formatString($token));
+        array_push($paramsStudent, formatString(date("Y-m-d", strtotime('+5 days'))));
 
-        $fields =  array("name","lastName","email","password","level","major", "campus" );
+
+        $fields =  array("name","lastName","email","password","level","major", "campus", "token", "expire" );
 
 
         if(insert($fields, $paramsStudent, "student")){
-          echo '<script language="javascript">';
-          echo 'alert("AQUI VA EL MODAL JORDAN")';
-          echo '</script>';        }
+          session_start();
+          $_SESSION["token"] = $token;
+          $_SESSION["id"] = $_POST["email"];
+          header("Location: team.php");
+                }
       }
      ?>
 
@@ -44,7 +50,7 @@ include "templates/header.php";
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2" data-aos="fade-up">
-                <form action="" method="post">
+                <form action="" method="post" id="reg">
                     <div class="row form-group">
                         <div class="col-md-6 mb-3 mb-md-0">
                             <label class="" for="fname">Nombre</label>
@@ -105,7 +111,8 @@ include "templates/header.php";
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="100"><span>INSCRIBIRSE</span></a>
+                          <input type="submit" name="" value="">
+                            <a href="" class="btn-custom" data-aos="fade-up" data-aos-delay="100" onclick="document.getElementById('reg').submit();"><span>INSCRIBIRSE</span></a>
                         </div>
                     </div>
 
