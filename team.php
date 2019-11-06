@@ -5,9 +5,12 @@ require_once "classes/database.php";
 session_start();
 
 if(!isset($_SESSION["id"])){
-  header("Location: login.php");
+  echo "<script>window.location.replace('http://codechallenge.com.mx/login.php');</script>";
 }
+?>
 
+
+<?php
 include "templates/footer.php";
 
 ?>

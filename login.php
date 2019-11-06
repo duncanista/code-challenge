@@ -2,6 +2,8 @@
 
 require_once "classes/database.php";
 
+session_start();
+$_SESSION["hello"] = "hola mundo";
 
 if( $_SERVER["REQUEST_METHOD"] == 'POST'){
   $paramsStudent = array();

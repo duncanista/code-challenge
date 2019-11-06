@@ -28,8 +28,11 @@ include "templates/header.php";
           session_start();
           $_SESSION["token"] = $token;
           $_SESSION["id"] = $_POST["email"];
-          header("Location: team.php");
-                }
+          if(isset($_SESSION["token"]) && isset($_SESSION["id"])){
+            echo "<script>window.location.replace('http://codechallenge.com.mx/team.php');</script>";
+                  }
+          }
+
       }
      ?>
 
