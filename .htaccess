@@ -8,7 +8,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 
 # Root Rewrites
-RewriteRule ^incio$ index.php [L,NC]
+RewriteRule ^inicio$ index.php [L,NC]
 RewriteRule ^nosotros$ about.php [L,NC]
 RewriteRule ^contacto$ contact.php [L,NC]
 RewriteRule ^boletos$ buy-tickets.php [L,NC]
