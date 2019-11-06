@@ -15,7 +15,7 @@ if( $_SERVER["REQUEST_METHOD"] == 'POST'){
     echo "SI";
     session_start();
     $_SESSION["id"] = $email;
-    header("Location: team.php");
+    echo "<script>window.location.replace('http://codechallenge.com.mx/team.php');</script>";
   }
   else{
     echo "NO";

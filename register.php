@@ -25,26 +25,16 @@ include "templates/header.php";
 
 
         if(insert($fields, $paramsStudent, "student")){
-<<<<<<< HEAD
-          session_start();
-          $_SESSION["token"] = $token;
-          $_SESSION["id"] = $_POST["email"];
-          if(isset($_SESSION["token"]) && isset($_SESSION["id"])){
-            echo "<script>window.location.replace('http://codechallenge.com.mx/team.php');</script>";
-                  }
-          }
-
-      }
-     ?>
-=======
             session_start();
             $_SESSION["token"] = $token;
             $_SESSION["id"] = $_POST["email"];
-            header("Location: team.php");
+            if(isset($_SESSION["token"]) && isset($_SESSION["id"])){
+                echo "<script>window.location.replace('http://codechallenge.com.mx/team.php');</script>";
+            }
         }
-    }
-?>
->>>>>>> 4ef6c772e5adbbb311b35855bff5dbdb4525797b
+
+      }
+     ?>
 
 
 
@@ -143,6 +133,6 @@ include "templates/header.php";
 
 <?php
 
-     include "templates/footer.php";
+include "templates/footer.php";
 
-     ?>
+?>
