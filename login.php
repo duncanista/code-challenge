@@ -1,9 +1,13 @@
 <?php
+$contact = "class='active'";
+include "templates/header.php";
+
+?>
+
+<?php
 
 require_once "classes/database.php";
 
-session_start();
-$_SESSION["hello"] = "hola mundo";
 
 if( $_SERVER["REQUEST_METHOD"] == 'POST'){
   $paramsStudent = array();
@@ -25,11 +29,7 @@ if( $_SERVER["REQUEST_METHOD"] == 'POST'){
 }
 
 ?>
-<?php
-$contact = "class='active'";
-include "templates/header.php";
 
-?>
 
 <div class="site-section site-hero inner">
 	<div class="container">
@@ -77,4 +77,3 @@ include "templates/header.php";
 include "templates/footer.php";
 
 ?>
-
