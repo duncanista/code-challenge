@@ -61,7 +61,6 @@ function insert($fields, $values, $table)
       return $id;
     }
     else {
-      echo "NO";
         echo $result->error;
         http_response_code(400);
     }
