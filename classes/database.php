@@ -62,7 +62,7 @@ function insert($fields, $values, $table)
     }
     else {
       echo "NO";
-      echo mysqli_connect_error();
+      echo $result->error;
       http_response_code(400);
     }
 }
