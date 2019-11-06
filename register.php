@@ -5,7 +5,8 @@ include "templates/header.php";
 ?>
 <?php require_once "classes/database.php";
 
-      if( $_SERVER["REQUEST_METHOD"] == 'POST' && isset($_POST["name"]) && $_POST["lastname"] && $_POST["email"] && $_POST["password"] && $_POST["level"] && $_POST["major"] && $_POST["campus"]){
+      if( $_SERVER["REQUEST_METHOD"] == 'POST' && isset($_POST["name"]) && isset($_POST["lastname"]) && isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["level"]) && isset($_POST["major"])
+      && isset($_POST["campus"])){
         $paramsStudent = array();
 
         array_push($paramsStudent, formatString($_POST["name"]));
