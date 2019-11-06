@@ -95,23 +95,28 @@ include "templates/header.php";
                                 <option value="isc" selected>ISC</option>
                                 <option value="itc">ITC</option>
                                 <option value="iti">ITI</option>
+                                <option value="itc">TIE</option>
+                                <option value="itc">INT</option>
+                                <option value="itc">IRS</option>
                                 <option value="isdr">ISDR</option>
+                                <option value="itc">IDM</option>
+                                <option value="itc">INA</option>
                                 <option value="isc">IMT</option>
+                                <option value="itc">OTRA</option>
                             </select>
                         </div>
                         <div class="col-md-4">
                             <label class="" for="">Campus</label>
                             <select class="form-control" name="campus" required>
                                 <option value="cem" selected>CEM</option>
-                                <option value="ccm">CCM</option>
-                                <option value="csf">CSF</option>
+                                <option value="ccm" disabled>CCM</option>
+                                <option value="csf" disabled>CSF</option>
                             </select>
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                          <input type="submit" name="" value="">
                             <a href="" class="btn-custom" data-aos="fade-up" data-aos-delay="100" onclick="document.getElementById('reg').submit();"><span>INSCRIBIRSE</span></a>
                         </div>
                     </div>

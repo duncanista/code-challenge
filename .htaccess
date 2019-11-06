@@ -1,0 +1,23 @@
+RewriteEngine On
+Options All -Indexes
+#ErrorDocument 404 /inicio
+#ErrorDocument 403 /inicio
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+# Root Rewrites
+RewriteRule ^incio$ index.php [L,NC]
+RewriteRule ^nosotros$ about.php [L,NC]
+RewriteRule ^contacto$ contact.php [L,NC]
+RewriteRule ^boletos$ buy-tickets.php [L,NC]
+RewriteRule ^login$ login.php [L,NC]
+RewriteRule ^registro$ register.php [L,NC]
+RewriteRule ^taller$ workshop.php [L,NC]
+RewriteRule ^faq$ faq.php [L,NC]
+
+# force url
+
+# RewriteCond %{SERVER_PORT} 80
+# RewriteRule ^(.*)$ http://codechallenge.com.mx/$1 [R=301,L]
