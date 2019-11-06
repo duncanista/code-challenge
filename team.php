@@ -6,6 +6,7 @@ require_once "classes/database.php";
 if(!isset($_SESSION["id"])){
   echo "<script>window.location.replace('http://codechallenge.com.mx/login.php');</script>";
 }
+selectByField("student", "email", $_SESSION["id"]);
 ?>
 <div class="site-section site-hero inner">
 	<div class="container">
@@ -30,7 +31,7 @@ if(!isset($_SESSION["id"])){
 				<p>Regresa el 11 de noviembre para formar tu equipo.</p>
 			</div>
 		</div>
-		
+
 	</div>
 </div>
 
