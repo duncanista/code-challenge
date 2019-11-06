@@ -5,7 +5,7 @@ include "templates/header.php";
 ?>
 <?php require_once "classes/database.php";
 
-      if( $_SERVER["REQUEST_METHOD"] == 'POST'){
+    if( $_SERVER["REQUEST_METHOD"] == 'POST'){
         $paramsStudent = array();
 
         array_push($paramsStudent, formatString($_POST["name"]));
@@ -25,13 +25,13 @@ include "templates/header.php";
 
 
         if(insert($fields, $paramsStudent, "student")){
-          session_start();
-          $_SESSION["token"] = $token;
-          $_SESSION["id"] = $_POST["email"];
-          header("Location: team.php");
-                }
-      }
-     ?>
+            session_start();
+            $_SESSION["token"] = $token;
+            $_SESSION["id"] = $_POST["email"];
+            header("Location: team.php");
+        }
+    }
+?>
 
 
 
@@ -117,8 +117,8 @@ include "templates/header.php";
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <a href="" class="btn-custom" data-aos="fade-up" data-aos-delay="100" onclick="document.getElementById('reg').submit();"><span>INSCRIBIRSE</span></a>
-                        </div>
+                            <button type="submit" class="btn-custom" data-aos="fade-up" style="border: 0px;" data-aos-delay="100" onclick="document.getElementById('reg').submit();"><span>INSCRIBIRSE</span></button>
+						</div>
                     </div>
 
 
