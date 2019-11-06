@@ -8,10 +8,10 @@
 				<div class="col-md-3 ml-auto">
 					<h2 class="footer-heading text-uppercase mb-4">Ligas de acceso</h2>
 					<ul class="list-unstyled">
-						<li><a href="./about.php">Nosotros</a></li>
-						<li><a href="#">Taller</a></li>
-						<li><a href="#">Regístrate</a></li>
-						<li><a href="#">Contáctanos</a></li>
+						<li><a href="./acerca">Nosotros</a></li>
+						<li><a href="taller">Taller</a></li>
+						<li><a href="registro">Regístrate</a></li>
+						<li><a href="contacto">Contáctanos</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4">
@@ -36,7 +36,7 @@
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						</p>
 						<p>
-							Code Challenge &copy; <script> document.write(new Date().getFullYear()); </script> 
+							Code Challenge &copy; <script> document.write(new Date().getFullYear()); </script>
 						</p>
 					</div>
 				</div>
