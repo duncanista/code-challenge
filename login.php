@@ -46,7 +46,11 @@ if( $_SERVER["REQUEST_METHOD"] == 'POST'){
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6" data-aos="fade-up">
+<<<<<<< HEAD
 				<form action="#" method="POST">
+=======
+				<form action="" method="post">
+>>>>>>> refs/remotes/origin/master
 					<div class="row form-group">
 						<div class="col-md-6 mb-3 mb-md-0">
 							<label class="" for="email">Correo</label>
