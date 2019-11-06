@@ -5,7 +5,7 @@ include "templates/header.php";
 ?>
 <?php require_once "classes/database.php";
 
-    if( $_SERVER["REQUEST_METHOD"] == 'POST'){
+      if( $_SERVER["REQUEST_METHOD"] == 'POST'){
         $paramsStudent = array();
 
         array_push($paramsStudent, formatString($_POST["name"]));
@@ -25,26 +25,16 @@ include "templates/header.php";
 
 
         if(insert($fields, $paramsStudent, "student")){
-<<<<<<< HEAD
           session_start();
           $_SESSION["token"] = $token;
           $_SESSION["id"] = $_POST["email"];
           if(isset($_SESSION["token"]) && isset($_SESSION["id"])){
             echo "<script>window.location.replace('http://codechallenge.com.mx/team.php');</script>";
-                  }
-          }
 
+          }
+                }
       }
      ?>
-=======
-            session_start();
-            $_SESSION["token"] = $token;
-            $_SESSION["id"] = $_POST["email"];
-            header("Location: team.php");
-        }
-    }
-?>
->>>>>>> 4ef6c772e5adbbb311b35855bff5dbdb4525797b
 
 
 
@@ -130,8 +120,8 @@ include "templates/header.php";
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <button type="submit" class="btn-custom" data-aos="fade-up" style="border: 0px;" data-aos-delay="100" onclick="document.getElementById('reg').submit();"><span>INSCRIBIRSE</span></button>
-						</div>
+                            <a href="" class="btn-custom" data-aos="fade-up" data-aos-delay="100" onclick="document.getElementById('reg').submit();"><span>INSCRIBIRSE</span></a>
+                        </div>
                     </div>
 
 
